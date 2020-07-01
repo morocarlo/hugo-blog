@@ -2,7 +2,7 @@
 title: How to deploy GO HUGO to Firebase
 date: "2020-07-01T22:12:03.284Z"
 tags: ['hugo', 'firebase']
-published: true
+published: false
 ---
 
 ## Setting up Google Analitycs

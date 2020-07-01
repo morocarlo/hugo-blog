@@ -7,6 +7,8 @@ enableRobotsTXT = true
 summaryLength = 100 # Custom summary length, add <!--more--> in post file to custom split point
 paginate = 10
 
+useHugoPipes = true
+
 [params]
   googleAnalyticsTid = "UA-000000000-0"
   #googleAdsense = "0000000000000000"
