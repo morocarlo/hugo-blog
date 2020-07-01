@@ -6,10 +6,10 @@ description: A django admin user is a super user that can login and edit the Dja
 published: true
 dev:
   image:
-    url: "/admin01.png"
+    url: "./admin01.png"
     width: 800
     height: 600
-  author: "New Author"
+  author: "Carlo Moretto"
 ---
 
 ## Introduction
