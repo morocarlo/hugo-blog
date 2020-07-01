@@ -85,15 +85,15 @@
     }
   },
   {{- end }}
-  {{ if .Params.author -}}
+  {{ if .Param "dev.author" -}}
   "author": {
     "@type": "Person",
-    "name": "{{ .Params.author }}"
+    "name": "{{ .Param "dev.author" }}"
   },
-  {{- else if .Site.Author.name -}}
+  {{- else if .Site.Params.author -}}
   "author": {
     "@type": "Person",
-    "name": "{{ .Site.Author.name }}"
+    "name": "{{ .Site.Params.author.name }}"
   },
   {{- end }}
   "description": "{{ .Description }}"

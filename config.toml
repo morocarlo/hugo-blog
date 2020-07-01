@@ -15,7 +15,10 @@ paginate = 10
   showComments = false
   showWordCounter = true
   showReadTime = true
-  description = "Javascript, Django, Python "
+  description = "Javascript, Django, Python"
+
+  [params.author]
+    name = "Carlo Moretto"
 
   [params.publisher]
     name = "Dev Tips"
