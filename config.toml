@@ -1,0 +1,68 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Dev Tips - Javascript, Django, Python"
+
+theme = "fuji-custom"
+enableRobotsTXT = true
+summaryLength = 100 # Custom summary length, add <!--more--> in post file to custom split point
+paginate = 10
+
+[params]
+  googleAnalyticsTid = "UA-000000000-0"
+  #googleAdsense = "0000000000000000"
+  showLicense = false
+  showToc = false
+  showComments = false
+  showWordCounter = true
+  showReadTime = true
+  description = "Javascript, Django, Python "
+
+  [params.publisher]
+    name = "Dev Tips"
+
+    [params.publisher.logo]
+      url = "/img/logo.png"
+      width = 127
+      height = 40
+
+  [params.logo]
+    url = "/img/logo.png"
+    width = 127
+    height = 40
+
+  [params.image]
+    url = "/img/cover.png"
+    width = 800
+    height = 600
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Enable user to embed HTML snippets in Markdown content
+  [markup.highlight]
+    codeFences = false  # Disable Hugo's code highlighter
+
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
+[taxonomies]
+  tag = "tags"
+
+[menu]
+  [[menu.nav]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.nav]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.nav]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 3
+
+#  [[menu.link]]
+#    name = "GitHub"
+#    url = "https://github.com/amzrk2"
