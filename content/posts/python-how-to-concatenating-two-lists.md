@@ -1,6 +1,6 @@
 ---
 title: Python, how to concatenating two lists
-date: "2020-07-04T15:12:03.284Z"
+date: "2020-07-04T10:12:03.284Z"
 tags: ['python', 'beginners']
 published: true
 ---
